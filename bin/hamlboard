@@ -1,13 +1,3 @@
-# require 'main'
-# 
-# Main {
-# 
-#   def run
-#     p 'hello'
-#     exit_success!
-#   end
-# }
-
 #!/usr/bin/env ruby
 # encoding: UTF-8
 
@@ -18,4 +8,14 @@ bin_file = Pathname.new(__FILE__).realpath
 # add self to libpath
 $:.unshift File.expand_path("../../lib", bin_file)
 
-system("echo hi")
+require 'main'
+
+Main {
+  def run
+    system("pbpaste > ~/.html")
+    system("html2haml ~/.html > ~/.haml")
+    system("pbcopy < ~/.haml")
+    p "Hamlized version is now in clipboard!"
+    exit_success!
+  end
+}
