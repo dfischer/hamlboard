@@ -18,7 +18,24 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Look at some HTML, and then copy it. For example:
+
+```html
+<div class="panel">
+  <h5>This is a regular panel.</h5>
+  <p>It has an easy to override visual style, and is appropriately subdued.</p>
+</div>
+
+<div class="panel callout radius">
+  <h5>This is a callout panel.</h5>
+  <p>It's a little ostentatious, but useful for important content (like the Foundation 3 Download panel).</p>
+</div>
+```
+
+And then run `hamlboard` 
+
+You now have a hamlized version in your clipboard! Paste it wherever
+appropriate.
 
 ## Contributing
 
