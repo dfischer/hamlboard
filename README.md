@@ -1,6 +1,8 @@
 # Hamlboard
 
-TODO: Write a gem description
+Simple clipboard wrapper for HTML2HAML.
+
+Turn your HTML from your clipboard into HAML into your clipboard.
 
 ## Installation
 
