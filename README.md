@@ -32,7 +32,7 @@ Look at some HTML, and then copy it. For example:
 </div>
 ```
 
-And then run `hamlboard` 
+And then run `hamlboard` in your terminal.
 
 You now have a hamlized version in your clipboard! Paste it wherever
 appropriate.
