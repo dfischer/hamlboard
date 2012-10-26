@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["me@danielfischer.com"]
   gem.description   = %q{Just a quick way to convert html to haml and put it in your clipboard.}
   gem.summary       = %q{Just a quick way to convert html to haml and put it in your clipboard.}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/dfischer/hamlboard"
 
   gem.add_dependency('html2haml')
   gem.add_dependency('erubis')
