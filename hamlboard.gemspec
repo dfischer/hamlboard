@@ -16,6 +16,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency('erubis')
   gem.add_dependency('ruby_parser')
   gem.add_dependency('main', '>= 5.1.0')
+  gem.add_dependency('haml', '>= 3.1.6')
   
 
   gem.files         = `git ls-files`.split($/)
