@@ -37,6 +37,17 @@ And then run `hamlboard`
 You now have a hamlized version in your clipboard! Paste it wherever
 appropriate.
 
+Hamlized code:
+
+```haml
+.panel
+  %h5 This is a regular panel.
+  %p It has an easy to override visual style, and is appropriately subdued.
+.panel.callout.radius
+  %h5 This is a callout panel.
+  %p It's a little ostentatious, but useful for important content (like the Foundation 3 Download panel).
+```
+
 ## Contributing
 
 1. Fork it
