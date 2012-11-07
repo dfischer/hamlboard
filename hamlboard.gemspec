@@ -13,7 +13,6 @@ Gem::Specification.new do |gem|
   gem.homepage      = "https://github.com/dfischer/hamlboard"
 
   gem.add_dependency('haml', '>= 3.1.6')
-  gem.add_dependency('html2haml')
   gem.add_dependency('erubis')
   gem.add_dependency('ruby_parser')
   gem.add_dependency('main', '>= 5.1.0')
