@@ -12,7 +12,7 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{Just a quick way to convert html to haml and put it in your clipboard.}
   gem.homepage      = "https://github.com/dfischer/hamlboard"
 
-  gem.add_dependency('haml', '>= 3.1.6')
+  gem.add_dependency("html2haml", "~> 1.0.1")
   gem.add_dependency('erubis')
   gem.add_dependency('ruby_parser')
   gem.add_dependency('main', '>= 5.1.0')
