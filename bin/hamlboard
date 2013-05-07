@@ -13,7 +13,7 @@ require 'main'
 Main {
   def run
     system("pbpaste > ~/.html")
-    system("html2haml ~/.html > ~/.haml")
+    system("html2haml -e ~/.html > ~/.haml")
     system("pbcopy < ~/.haml")
     p "Hamlized version is now in clipboard!"
     exit_success!
